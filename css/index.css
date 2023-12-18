@@ -1,0 +1,261 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap");
+
+body {
+  font-family: "Poppins";
+  background-color: #eeeded;
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+}
+img {
+  max-width: 100%;
+  object-fit: cover;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+.container{
+  max-width: 1400px;
+}
+
+.display-4{
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+h2{
+  padding-bottom: 10px;
+}
+
+p{
+  font-size: 16px;
+}
+.feature_list1{
+  padding-top: 60px;
+}
+#footerclass {
+  background: url(../img/4_footer/Background_image.png) no-repeat center/cover;
+  padding-top: 5rem;
+}
+@media screen and (max-width: 700px) {
+  #footerclass {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+}
+.btn-primary,
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:visited,
+.btn-primary:focus {
+  border-color: #115a8e;
+  color: #115a8e;
+}
+
+.btn-primary:hover {
+  background-color: #115a8e;
+  color: white;
+}
+
+.btn-outline-light {
+  border-color: white;
+  color: white;
+}
+
+ul.available {
+  list-style-image: url(/img/3_pricing_section/check_true.svg);
+  list-style-position: inside;
+  padding: 0;
+}
+.header-text {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+}
+.backgroung_image {
+  position: relative;
+}
+
+.bg-image {
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  width: 100%;
+  height: 40rem;
+  background: url(../img/1_hero/Background_image.png) no-repeat center/cover;
+}
+
+@media screen and (max-width: 990px) {
+  .bg-image {
+    height: 33rem;
+  }
+}
+@media screen and (max-width: 765px) {
+  .bg-image {
+    height: 27rem;
+  }
+}
+@media screen and (max-width: 530px) {
+  .bg-image {
+    height: 28rem;
+  }
+}
+.row .row-image-feature{
+
+}
+
+.book-logo {
+  right: 3rem;
+  top: 6rem;
+}
+.book-logo img {
+  width: 7rem;
+}
+@media screen and (max-width: 800px) {
+  .book-logo {
+    right: 2rem;
+  }
+  .book-logo img {
+    width: 4rem;
+  }
+}
+@media screen and (max-width: 500px) {
+  .book-logo {
+    right: 1rem;
+  }
+  .book-logo img {
+    width: 3rem;
+  }
+}
+.G-play-img-container {
+  padding-top: 3rem;
+}
+.G-play-img-container img {
+  width: 13rem;
+  height: 4rem;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+@media screen and (max-width: 500px) {
+  .G-play-img-container {
+    padding-top: 1rem;
+  }
+  .G-play-img-container img {
+    width: auto;
+    height: auto;
+  }
+}
+
+.triple-screen img {
+  width: 50rem;
+}
+.feature_section {
+  border: none;
+}
+@media screen and (min-width: 1000px) {
+  .feature-img {
+    width: 700px;
+    height: 700px;
+    margin: auto;
+    display: block;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .feature-img {
+    width: 20rem;
+  }
+}
+.section_box {
+  border-radius: 15px;
+}
+
+.feature_list ul {
+  list-style: none;
+}
+
+.feature_list ul li::before {
+  color: #fa974a;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  font-size: 1.5em;
+  margin-left: -1.5em;
+}
+
+.productivity::before {
+  content: url("../img/2_features_section/productivity.svg");
+}
+.personal_education::before {
+  content: url("../img/2_features_section/personal_education.svg");
+}
+.financial_education::before {
+  content: url("../img/2_features_section/financial_education.svg");
+}
+.business::before {
+  content: url("../img/2_features_section/business.svg");
+}
+
+
+
+
+.pricing-card-header {
+  color: #333333;
+  font-weight: 800;
+}
+.pricing-card-text {
+  /* color: #707070; */
+  color: #a0a0a0;
+}
+.pricing-card {
+  border-radius: 10px;
+}
+
+.pricing-card2 {
+  border-radius: 10px;
+  color: white;
+  background-color: #115a8e;
+}
+
+.pricing-header {
+  background-color: white;
+  border: none;
+}
+
+.pricing-header2 {
+  border: none;
+  background-color: #115a8e;
+}
+
+.pricing_list ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+footer a {
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: none;
+  color: #115a8e;
+}
+
+/**
+footer {
+  color: white !important;
+}
+
+footer a,
+footer a:hover,
+footer a:visited,
+footer a:active {
+  color: white !important;
+  text-decoration: none;
+}
+
+**/
