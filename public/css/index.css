@@ -6,13 +6,18 @@
   padding: 16px 25px;
   border-radius: 12px;
   display: inline-block;
+  
+  text-align: center;
   /* Button/Large */
-  font-family: "Poppins",sans-serif;
+  font-family: "Montserrat",sans-serif;
     font-size: 16px;
     font-style: normal;
-    font-weight: 600;
+    font-weight: 500;
     line-height: 120%; /* 19.2px */
     letter-spacing: -0.3px;
+}
+.btn-lg.b{
+    width: 186px;
 }
 .why-tanga-section h4 {
     margin-bottom: 80px;
@@ -23,12 +28,12 @@
 }
 .welcome-section{
     background: url('../img2/1_hero/hero-background.png') no-repeat;
+    background-size: cover;
 }
 .mobile-screen{
     width: 100%;
 }
 .mobile-screen img {
-    width: 100%;
     display: block;
 }
 .app-download{
@@ -40,7 +45,8 @@
 }
 .detail-section .detail-info.backgroud{
     position: relative;
-    padding: 90px 80px 50px 80px;
+    padding: 90px 59px 50px 60px;
+    margin-left: 50px;
 }
 .detail-section .detail-info.backgroud::after{
     background: url('../img2/2_why_tanga_section/detail-background.png') no-repeat;
@@ -108,7 +114,7 @@ section{
     padding: 14px 25px;
 }
 .embedded{
-    max-width: 800px;
+    max-width: 870px;
     margin: auto;
     border-radius: 20px;
 }
@@ -195,9 +201,14 @@ section{
     position: absolute;
     right: 0;
     bottom: 0;
-    width: 350px;
+    width: 480px;
+}
+.contact-us-img{
+    max-width: 460px;
+    width: 100%;
 }
 .product-list .product-item img{
+    border-radius: 12px;
     display: block;
     width: 100%;
 }
@@ -258,9 +269,13 @@ section{
     gap: 22px;
     align-items: center;
 }
+input::placeholder{
+    color: #6d757a;
+}
 .input-control{
     display: block;
     width: 100%;
+    height: 68px;
     padding: 15px 20px;
     font-size: 1rem;
     line-height: 1.5;
@@ -276,10 +291,11 @@ section{
     font-style: normal;
     font-weight: 400;
     line-height: 33.6px;
+    color: #35393B;
 }
 h1{
     /* Headline/H1 */
-    font-family: "Poppins",sans-serif;
+    font-family: "Montserrat",sans-serif;
     font-size: 64px;
     font-style: normal;
     font-weight: 700;
@@ -289,7 +305,7 @@ h1{
 }
 h3{
     /* Headline/H3 */
-    font-family: Poppins;
+    font-family: "Montserrat",sans-serif;
     font-size: 48px;
     font-style: normal;
     font-weight: 700;
@@ -300,7 +316,7 @@ h3{
 h4{
 
     /* Headline/H4 */
-    font-family: "Poppins",sans-serif;
+    font-family: "Montserrat",sans-serif;
     font-size: 34px;
     font-style: normal;
     font-weight: 700;
@@ -310,7 +326,7 @@ h4{
 }
 h5 {
 /* Headline/H5 */
-font-family: Poppins;
+font-family: "Montserrat",sans-serif;
 font-size: 24px;
 font-style: normal;
 font-weight: 600;
@@ -319,7 +335,7 @@ letter-spacing: -1.2px;
 }
 h6{
     /* Headline/H6 */
-    font-family: "Poppins",sans-serif;
+    font-family: "Montserrat",sans-serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 600;
@@ -333,6 +349,17 @@ h6{
     font-weight: 500;
     line-height: 160%; /* 25.6px */
 }
+body{
+    font-family: "Montserrat",sans-serif;
+}
+@media only screen and (max-width: 1200px) {
+    .explore-img{
+        max-width: 350px;
+        width: 100%;
+    }
+    
+}
+
 @media only screen and (max-width: 1024px) {
    h1{
     font-size: 28px;
@@ -353,6 +380,9 @@ h6{
    h5{
     font-size: 16px;
     line-height: 22px;
+   }
+   .mobile-screen img {
+    width: 100%;
    }
    h6{
     font-size: 14px;
@@ -386,6 +416,7 @@ h6{
    }
    .detail-section .detail-info.backgroud, .detail-section .detail-info.normal{
     padding: 48px 35px 30px 50px;
+    margin-left: 0px;
    }
    .pricing-card {
     margin-bottom: 20px;
@@ -408,11 +439,12 @@ h6{
     margin-bottom: 8px;
    }
    .input-control{
-    padding: 10px 16px;
+    padding: 14px 16px;
+    height: unset;
    }
-   .contact-section{
-
-   }
+   .btn-lg.b{
+    width: unset;
+    }
    .category-card{
     margin-top: 30px;
    }
@@ -425,15 +457,16 @@ h6{
    .footer-menu{
     padding-bottom: 20px;
    }
-   .explore-img{
-    
-   }
+   .contact-us-img{
+    max-width: 360px;
+    }
 }
 
 @media only screen and (max-width: 768px) {
     .contact-section{
         padding-bottom: 40px;
     }
+   
     .category-item, .btn-outline-lg, btn-outline-lg:hover{
         padding: 8px 14px !important;
     }
