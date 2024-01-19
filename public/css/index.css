@@ -1,3 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap");
+
+
 .btn-lg, .btn-lg:hover {
   background-color: rgba(17, 90, 142, 1);
   color: rgba(255, 255, 255, 1);
@@ -208,7 +212,7 @@ section{
     width: 100%;
 }
 .product-list .product-item img{
-    border-radius: 12px;
+    border-radius: 20px;
     display: block;
     width: 100%;
 }
@@ -295,7 +299,7 @@ input::placeholder{
 }
 h1{
     /* Headline/H1 */
-    font-family: "Montserrat",sans-serif;
+    font-family: "Poppins",sans-serif;
     font-size: 64px;
     font-style: normal;
     font-weight: 700;
@@ -303,9 +307,10 @@ h1{
     letter-spacing: -1.2px;
     color: #0E0F10;
 }
+
 h3{
     /* Headline/H3 */
-    font-family: "Montserrat",sans-serif;
+    font-family: "Poppins",sans-serif;
     font-size: 48px;
     font-style: normal;
     font-weight: 700;
@@ -316,7 +321,7 @@ h3{
 h4{
 
     /* Headline/H4 */
-    font-family: "Montserrat",sans-serif;
+    font-family: "Poppins",sans-serif;
     font-size: 34px;
     font-style: normal;
     font-weight: 700;
@@ -326,7 +331,7 @@ h4{
 }
 h5 {
 /* Headline/H5 */
-font-family: "Montserrat",sans-serif;
+font-family: "Poppins",sans-serif;
 font-size: 24px;
 font-style: normal;
 font-weight: 600;
@@ -335,7 +340,7 @@ letter-spacing: -1.2px;
 }
 h6{
     /* Headline/H6 */
-    font-family: "Montserrat",sans-serif;
+    font-family: "Poppins",sans-serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 600;
